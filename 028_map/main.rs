@@ -1,17 +1,5 @@
 use std::collections::HashMap;
 
-fn print_map(m: &HashMap<char, i32>) -> ()
-{
-    print!("{{");
-    for (i, (k, v)) in m.iter().enumerate() {
-        if i > 0 {
-            print!(", ");
-        }
-        print!("'{}':{}", k, v);
-    }
-    println!("}}");
-}
-
 fn main()
 {
     println!("initialize and insert map");
@@ -19,8 +7,7 @@ fn main()
     m.insert('A', 10i32);
     m.insert('B', 11i32);
     m.insert('C', 12i32);
-    print_map(&m);
-    println!("");
+    println!("{:?}", m);
 
     println!("get length");
     println!("length is {}", m.len());
@@ -42,7 +29,7 @@ fn main()
 
     println!("remove");
     m.remove(&'A');
-    print_map(&m);
+    println!("{:?}", m);
     println!("");
 
     println!("range for");
