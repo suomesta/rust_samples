@@ -2,8 +2,7 @@ use std::fs::File;
 use std::io::{Read, Write};
 use std::path::Path;
 
-fn main()
-{
+fn main() {
     {
         let path = Path::new("/tmp/tmp");
 

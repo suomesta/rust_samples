@@ -1,5 +1,4 @@
-fn main()
-{
+fn main() {
     println!("{}", 5);
 }
 

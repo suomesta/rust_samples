@@ -1,5 +1,4 @@
-fn main()
-{
+fn main() {
     // plain example
     let i: i32 = 5;
 

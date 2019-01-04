@@ -1,5 +1,4 @@
-fn main()
-{
+fn main() {
     let i: i32 = 5;
     let d: f64 = 1.9;
     let ui: u32 = 10;

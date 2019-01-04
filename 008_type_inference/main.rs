@@ -1,5 +1,4 @@
-fn main()
-{
+fn main() {
     let i = 5;
     let d = 1.25;
     let t = true;

@@ -1,5 +1,4 @@
-fn main()
-{
+fn main() {
     let i: i32 = 5;
 
     if i < 10 {

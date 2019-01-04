@@ -1,5 +1,4 @@
-fn main()
-{
+fn main() {
     let s: &'static str = "abc";
     let i = s.parse::<i32>();
 

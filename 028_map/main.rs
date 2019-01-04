@@ -1,7 +1,6 @@
 use std::collections::HashMap;
 
-fn main()
-{
+fn main() {
     println!("initialize and insert map");
     let mut m = HashMap::new();
     m.insert('A', 10i32);
